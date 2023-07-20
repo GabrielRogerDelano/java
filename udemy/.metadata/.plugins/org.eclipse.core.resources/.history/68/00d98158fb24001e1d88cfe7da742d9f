@@ -1,0 +1,11 @@
+package fundamentos;
+
+public class temperatura {
+	public static void main(String[] args) {
+		//(°f -32 ) * 5/9 = °C
+		double f = 32;
+		
+		double resultado = (f - 32 ) * (5/9.0);
+		System.out.println(f + "frarenhigh equivalem a " + resultado +" graus celsius");
+	}
+}
