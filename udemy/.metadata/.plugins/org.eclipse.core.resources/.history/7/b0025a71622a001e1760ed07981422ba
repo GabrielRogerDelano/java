@@ -1,0 +1,11 @@
+package fundamentos;
+
+public class DesafioAritmetico {
+	public static void main(String[] args) {
+		int a = (int) Math.pow(2, 4);
+		double b = Math.pow(5, 3);
+
+		System.out.println(a);
+		System.out.println(b);
+	}
+}
