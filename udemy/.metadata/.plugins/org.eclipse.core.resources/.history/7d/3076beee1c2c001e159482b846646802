@@ -1,0 +1,22 @@
+package controle.exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio4 {
+	public static void main(String[] args) {
+		
+		
+		System.out.println("\n\n Jogo de adivinhacao \n");
+		System.out.println("***************************\n");
+		System.out.println("- Voce tem 10 chances para acertar\n o numero entre 0 e 100\n\n"); 
+		
+		Scanner entrada = new Scanner(System.in);
+		int NumeroDeChances = 10;
+	
+		System.out.println("Digite um valor(voce tem " + NumeroDeChances + ") : \n");
+		
+		
+
+		entrada.close();
+	}
+}

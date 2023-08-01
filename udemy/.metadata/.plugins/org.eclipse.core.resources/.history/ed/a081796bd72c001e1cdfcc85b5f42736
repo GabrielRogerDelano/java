@@ -1,0 +1,10 @@
+package classe;
+
+public class ProdutoTeste {
+	public static void main(String[] args) {
+		
+		Produto p1 = new Produto();
+		p1.nome = "monitor 21\'\'";
+		System.out.println(p1.nome);
+	}
+}

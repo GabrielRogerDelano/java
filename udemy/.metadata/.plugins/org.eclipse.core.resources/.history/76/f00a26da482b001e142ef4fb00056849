@@ -1,0 +1,21 @@
+package controle;
+
+import java.util.Scanner;
+
+public class WhileIndeterminado {
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		boolean valor = "";
+		
+		while(valor.equalsIgnoreCase("sair"))) {
+			
+			System.out.println("digite \" sair \"");
+			valor = entrada.next();
+			
+		}
+		System.out.println("programa finalizado");
+		
+		entrada.close();
+	}
+}

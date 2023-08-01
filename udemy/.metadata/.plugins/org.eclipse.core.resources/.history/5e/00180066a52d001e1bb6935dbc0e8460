@@ -1,0 +1,10 @@
+package classe;
+
+public class AreaCircTeste {
+	public static void main(String[] args) {
+		
+		AreaCirc d1 = new AreaCirc(10);
+		d1.pi = 10;
+		System.out.println(d1.area());
+	}
+}
