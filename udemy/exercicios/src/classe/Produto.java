@@ -9,8 +9,8 @@ public class Produto {
 	
 	//construtor
 	Produto(String nomeInicial, double precoInicial){
-		nome = nomeInicial;
-		preco = precoInicial;
+		this.nome = nomeInicial;
+		this.preco = precoInicial;
 	}
 	
 	//metodo de desconto

@@ -1,0 +1,23 @@
+package classe;
+
+public class Pessoa {
+	//classe para o desafio
+	String nome;
+	double peso;
+	
+	Pessoa(String nome, double peso){
+		this.nome = nome;
+		this.peso = peso;
+		
+	}
+	
+	void comer(int comida){
+		if(comida < 0) {
+			System.out.println("nao é possivel comer nada");
+			
+		}else {
+			peso += comida;
+			System.out.println("Voce ganhaou "+ comida + "kg");
+		}
+	}
+}

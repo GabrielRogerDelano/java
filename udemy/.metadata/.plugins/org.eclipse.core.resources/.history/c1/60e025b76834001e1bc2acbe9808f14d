@@ -1,0 +1,22 @@
+package classe.desafio;
+
+public class Jantar {
+	//classe para o desafio
+	public static void main(String[] args) {
+		Pessoa joao = new Pessoa("Joao", 60);
+		Pessoa maria = new Pessoa("Maria", 46);
+		
+		Comida Strogonoff = new Comida("Strogonoff", 0.20);
+		Comida seiva = new Comida("seiva", -1);
+		
+		joao.comer(Strogonoff.peso);
+		joao.comer(seiva.peso);
+		joao.comer(Strogonoff.peso);
+		joao.comer(Strogonoff.peso);
+		joao.comer(Strogonoff.peso);
+		
+		maria.comer(Strogonoff.peso);
+
+	}
+	
+}
