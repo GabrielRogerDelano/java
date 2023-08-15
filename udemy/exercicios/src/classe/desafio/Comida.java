@@ -1,7 +1,6 @@
 package classe.desafio;
 
 public class Comida{
-	//classe para o desafio
 	String nome;
 	double peso;
 	

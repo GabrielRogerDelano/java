@@ -1,7 +1,6 @@
 package classe.desafio;
 
 public class Pessoa {
-	//classe para o desafio
 	String nome;
 	double peso;
 	
@@ -13,10 +12,10 @@ public class Pessoa {
 	
 	void comer(Comida comida){
 		if(comida != null) {
-			System.out.printf("\n%s pesava %.2f\n", nome, peso);
+			System.out.println( nome + " pesava " + peso  + "Kg");
 			this.peso += comida.peso;
-			System.out.printf("Agora pesa %.2f kg", peso);
-			System.out.println("\n---------------------------");
+			System.out.println("Agora pesa " + peso +"kg");
+			System.out.println("------------------------");
 		}
 	}
 }

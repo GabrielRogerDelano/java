@@ -9,7 +9,7 @@ public class Exercicio6 {
 
 		Scanner entrada = new Scanner(System.in);
 
-		System.out.println("figite uma palavra");
+		System.out.println("Digite uma palavra");
 		String palavra = entrada.next();
 		
 		char letras[] = palavra.toCharArray();
