@@ -30,8 +30,6 @@ public class Pilha {
 		System.out.println(livros.remove());
 		System.out.println(livros.poll());
 		System.out.println(livros.poll());
-		
-		
-		
+		 
 	}
 }
