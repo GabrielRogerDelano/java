@@ -44,9 +44,9 @@
     <fullyQualifiedTypeName name="oo.composicao.Item"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="oo.composicao.Portas"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="oo.composicao.desafio.Cliente"/>
     <fullyQualifiedTypeName name="oo.composicao.desafio.Compra"/>
     <fullyQualifiedTypeName name="oo.composicao.desafio.Produto"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
