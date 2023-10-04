@@ -48,8 +48,8 @@
     <fullyQualifiedTypeName name="oo.composicao.desafio.Produto"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="oo.heranca.Jogador"/>
     <fullyQualifiedTypeName name="oo.heranca.Monstro"/>
     <fullyQualifiedTypeName name="javax.management.remote.SubjectDelegationPermission"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>
