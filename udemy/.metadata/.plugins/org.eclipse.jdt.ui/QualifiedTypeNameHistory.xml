@@ -52,4 +52,6 @@
     <fullyQualifiedTypeName name="oo.heranca.Monstro"/>
     <fullyQualifiedTypeName name="javax.management.remote.SubjectDelegationPermission"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="oo.polimorfismo.Arroz"/>
+    <fullyQualifiedTypeName name="oo.polimorfismo.Comida"/>
 </qualifiedTypeNameHistroy>
