@@ -1,20 +1,42 @@
 package oo.heranca.desafio;
 
-import oo.heranca.teste.Carro;
-
-public class Ferrari extends Carro implements Esportivo{
+public class Ferrari extends Carro implements Esportivo, Luxo{
+	
+	boolean ligarTurbo;
+	boolean ligarAr;
 	
 	public Ferrari() {
 		this(300);
 	}
 	
 	public void ligarTurbo() {
-		delta = 30;
+		ligarTurbo = true;
 	}
 
 	public void desligarTurbo() {
-		delta = 15;
+		ligarTurbo = false;
 	}
+	
+	public void ligarAr() {
+		ligarAr = true;
+	}
+	
+	public void desligarAr() {
+		ligarAr = false;
+	}
+	
+	public int getDelta() {
+		if (ligarTurbo && !ligarAr) {
+			return 35;
+		} else if(ligarTurbo && ligarAr) {
+			return 30;
+		} else if(!ligarTurbo && !ligarAr) {
+			return 20;
+		} else {
+			return 15;
+		}
+	}
+	
 	public Ferrari(int velocidadeMaxima) {
 		super(velocidadeMaxima);
 		delta = 15;

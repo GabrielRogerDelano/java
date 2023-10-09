@@ -1,4 +1,4 @@
-package oo.heranca.teste;
+package oo.heranca.desafio;
 
 public class Carro {
 	
@@ -15,10 +15,10 @@ public class Carro {
 	}
 	
 	public void acelerar() {
-		if (velocidadeAtual + delta > VELOCIDADE_MAXIMA) {
+		if (velocidadeAtual + getDelta() > VELOCIDADE_MAXIMA) {
 			velocidadeAtual = VELOCIDADE_MAXIMA;
 		} else {
-			this.velocidadeAtual += delta;	
+			this.velocidadeAtual += getDelta();	
 		}
 	}
 	
@@ -30,6 +30,14 @@ public class Carro {
 		}
 	}
 	
+	public int getDelta() {
+		return delta;
+	}
+
+	public void setDelta(int delta) {
+		this.delta = delta;
+	}
+
 	public String toString() {
 		return "A velocidade atual do carro é " + velocidadeAtual+ "Km/h" ;
 	}

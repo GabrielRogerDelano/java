@@ -1,7 +1,11 @@
-package oo.heranca.desafio;
+package oo.heranca.teste;
+
+import oo.heranca.desafio.Ferrari;
+import oo.heranca.desafio.Toyota;
 
 public class testeDeCarros {
 	public static void main(String[] args) {
+		
 		Toyota toyota = new Toyota();
 		Ferrari ferrari = new Ferrari();
 		
