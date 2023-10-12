@@ -55,4 +55,7 @@
     <fullyQualifiedTypeName name="oo.polimorfismo.Arroz"/>
     <fullyQualifiedTypeName name="oo.polimorfismo.Comida"/>
     <fullyQualifiedTypeName name="oo.heranca.desafio.Luxo"/>
+    <fullyQualifiedTypeName name="oo.abstrato.Animal"/>
+    <fullyQualifiedTypeName name="oo.abstrato.Cachorro"/>
+    <fullyQualifiedTypeName name="oo.abstrato.Mamifero"/>
 </qualifiedTypeNameHistroy>
