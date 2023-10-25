@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="javax.swing.JButton"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
@@ -15,7 +11,6 @@
     <fullyQualifiedTypeName name="classe.PrimeiroTrauma"/>
     <fullyQualifiedTypeName name="classe.Pessoa"/>
     <fullyQualifiedTypeName name="arrays.Foreach"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="javax.naming.ldap.HasControls"/>
     <fullyQualifiedTypeName name="java.util.SortedSet"/>
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
@@ -41,7 +36,6 @@
     <fullyQualifiedTypeName name="oo.composicao.Carro"/>
     <fullyQualifiedTypeName name="oo.composicao.Compra"/>
     <fullyQualifiedTypeName name="oo.composicao.Item"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="oo.composicao.Portas"/>
     <fullyQualifiedTypeName name="oo.composicao.desafio.Cliente"/>
     <fullyQualifiedTypeName name="oo.composicao.desafio.Compra"/>
@@ -58,4 +52,12 @@
     <fullyQualifiedTypeName name="oo.abstrato.Animal"/>
     <fullyQualifiedTypeName name="oo.abstrato.Cachorro"/>
     <fullyQualifiedTypeName name="oo.abstrato.Mamifero"/>
+    <fullyQualifiedTypeName name="lambdas.Somar"/>
+    <fullyQualifiedTypeName name="lambdas.Multiplicar"/>
+    <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="lambdas.Foreach"/>
 </qualifiedTypeNameHistroy>
