@@ -40,8 +40,6 @@
     <fullyQualifiedTypeName name="oo.composicao.desafio.Cliente"/>
     <fullyQualifiedTypeName name="oo.composicao.desafio.Compra"/>
     <fullyQualifiedTypeName name="oo.composicao.desafio.Produto"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="oo.heranca.Jogador"/>
     <fullyQualifiedTypeName name="oo.heranca.Monstro"/>
     <fullyQualifiedTypeName name="javax.management.remote.SubjectDelegationPermission"/>
@@ -56,8 +54,10 @@
     <fullyQualifiedTypeName name="lambdas.Multiplicar"/>
     <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="lambdas.Foreach"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
