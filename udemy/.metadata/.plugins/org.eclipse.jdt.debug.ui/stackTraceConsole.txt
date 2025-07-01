@@ -1,3 +1,0 @@
-float b =  (float)1.90;
-		System.out.println(b);
-	
