@@ -9,7 +9,7 @@ public class CriandoSteams {
 
 	public static void main(String[] args) {
 		Consumer<String> print = System.out::print;
-		Consumer<String> println = System.out::println;
+		Consumer<Integer> println = System.out::println;
 		
 		Stream<String> linguagens = Stream.of("java ", "Ruby ", "PHP");
 		linguagens.forEach(print);
