@@ -21,8 +21,6 @@ public class DesafioFilter2 {
 			.filter(FreteGratis)
 			.filter(descontoMaiorQue30)
 			.map(chamadaPromocional)
-			.forEach(System.out::println);
-			;
-		
+			.forEach(System.out::println);		
 	}
 }
