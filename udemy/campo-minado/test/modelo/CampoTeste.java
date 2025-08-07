@@ -128,8 +128,37 @@ public class CampoTeste {
 		
 		assertTrue(campo22.isAberto() && campo11.isFechado());
 	}
+	
+	@Test
+	void testeGetLinha() {
+		int numeroDaLinha = campo.getLinha();
+		
+		assertTrue(numeroDaLinha != -1);
+	}
+	
+	@Test
+	void testeGetColuna() {
+		int numeroDaColuna = campo.getColuna();
+		
+		assertTrue(numeroDaColuna != -1);
+	}
+	
+	@Test
+	void testeObjetivoAlcancado() {
+		Campo campoAberto = new Campo(5,5);
+		campoAberto.abrir();
+		
+		Campo campoMinadoMarcado = new Campo(6,5);
+		campoMinadoMarcado.minar();
+		campoMinadoMarcado.alterarMarcacao();
+		
+		assertTrue(campoAberto.ObjetivoAlcancado() && campoMinadoMarcado.ObjetivoAlcancado());
+	}
+	
+
+	
+	
+	
+	
+	
 }
-
-
-
-
