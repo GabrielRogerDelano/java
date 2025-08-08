@@ -36,16 +36,27 @@ public class Tabuleiro {
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		
+		sb.append("  ");
+		for (int l = 1 ; l < this.linhas +1; l++) {
+			sb.append(" ");
+			sb.append(l);
+			sb.append(" ");
+		}
+			sb.append("\n");
+			sb.append("  ---------------");
+			sb.append("\n");
 		int i = 0;
-		for(int linha = 0; linha< linhas;linha++) {
+		for(int linha = 1 ; linha< linhas+1;linha++) {
+			sb.append(linha+ "|");
 			for(int coluna = 0; coluna < colunas; coluna++) {
 				sb.append(" ");
 				sb.append(campos.get(i));
 				sb.append(" ");
 				i++;
 			}
-			sb.append("\n");
+			sb.append("|\n");
 		}
+		sb.append("  --------------");
 		
 		return sb.toString();
 	}
@@ -96,9 +107,4 @@ public class Tabuleiro {
 		
 		} while (minasArmadas < minas);
 	}
-	
-	
-	
-	
-
 }	

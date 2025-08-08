@@ -56,12 +56,13 @@ public class TabuleiroConsole {
 				digitado = (capturarValorDigitado("1 - abrir\n2 - (des)marcar\n "));
 				
 				if("1".equals(digitado)) {
-					tabuleiro.abrir(xy.next(), xy.next());
+					tabuleiro.abrir(xy.next()-1, xy.next()-1);
 				}else if("2".equals(digitado)) {
 					tabuleiro.AlterarMarcacao(xy.next(), xy.next());
 				}
 			}	
 			
+			System.out.println(tabuleiro);
 			System.out.println("você Ganhou");
 		}catch (ExplosaoException e) {
 			System.out.println(tabuleiro);
@@ -78,6 +79,5 @@ public class TabuleiroConsole {
 		}
 		
 		return digitado;
-		
 	}
 }
