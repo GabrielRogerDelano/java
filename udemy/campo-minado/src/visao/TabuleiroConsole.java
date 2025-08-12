@@ -58,7 +58,7 @@ public class TabuleiroConsole {
 				if("1".equals(digitado)) {
 					tabuleiro.abrir(xy.next()-1, xy.next()-1);
 				}else if("2".equals(digitado)) {
-					tabuleiro.AlterarMarcacao(xy.next(), xy.next());
+					tabuleiro.AlterarMarcacao(xy.next()-1, xy.next()-1);
 				}
 			}	
 			
