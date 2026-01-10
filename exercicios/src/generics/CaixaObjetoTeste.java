@@ -1,18 +1,17 @@
 package generics;
 
-public class CaixaObjetoTeste {
+public class CaixaObjetoteste {
 	public static void main(String[] args) {
-		
 		CaixaObjeto caixaA = new CaixaObjeto();
-		caixaA.guardar(2.3);
-	
-		Double coisaA = (Double) caixaA.abrir();
-		System.out.println(coisaA);
-
-		CaixaObjeto caixaB = new CaixaObjeto();
-		caixaB.guardar("String");
+		caixaA.guardar("bola");
 		
-		String coisaB = (String) caixaB.abrir();
-		System.out.println(coisaB);
+		String coisa = (String) caixaA.abrir();
+		System.out.println(coisa);
+	
+		CaixaObjeto caixaB = new CaixaObjeto();
+		caixaB.guardar(2.9);
+		
+		Double coisa2 = (Double) caixaB.abrir();
+		System.out.println(coisa2);
 	}
 }

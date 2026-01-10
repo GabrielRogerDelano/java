@@ -5,8 +5,6 @@ public class CaixaIntTeste {
 		CaixaInt caixaA = new CaixaInt();
 		caixaA.guardar(123);
 		
-		Integer coisaA = caixaA.abrir();
-		System.out.println(coisaA);
-		
+		System.out.println(caixaA.abrir());
 	}
 }

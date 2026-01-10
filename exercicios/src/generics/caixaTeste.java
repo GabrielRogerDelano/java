@@ -1,18 +1,11 @@
 package generics;
 
-public class caixaTeste {
-	public static void main(String[] args) {
-		Caixa<String> caixaA =  new Caixa<>();
-		caixaA.guardar("A caixa A guarda uma String");
-		
-		String coisaA = caixaA.abrir();
-		System.out.println(coisaA);
+public class CaixaTeste {
 
-		
-		Caixa<Double> caixaB =  new Caixa<>();
-		caixaB.guardar(9.0090);
-		
-		Double coisaB = caixaB.abrir();
-		System.out.println(coisaB);
+	public static void main(String[] args) {
+		Caixa<Boolean> caixaA = new Caixa<>();
+		caixaA.guardar(true);
+
+		System.out.println(caixaA.abrir());
 	}
 }
