@@ -8,4 +8,6 @@ public class Namorada implements ObservadorChegadaAniversariante{
 		System.out.println("esperar");
 		System.out.println("e....surpresa");
 	}
+	
+	
 }
