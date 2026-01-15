@@ -2,6 +2,7 @@ package modelo;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 public class Tabuleiro implements CampoObservador {
@@ -11,6 +12,8 @@ public class Tabuleiro implements CampoObservador {
 	private int minas;
 
 	private final List<Campo> campos = new ArrayList<>();
+	private final List<Consumer<ResultadoEvento>> observadores = new ArrayList<>();
+	
 
 	public Tabuleiro(int linhas, int colunas, int minas) {
 		this.linhas = linhas;
@@ -20,6 +23,15 @@ public class Tabuleiro implements CampoObservador {
 		gerarCampo();
 		assosciarOsVizinhos();
 		sortearMinas();
+	}
+	
+	public void registrarObservador(Consumer<ResultadoEvento> observador) {
+		observadores.add(observador);
+	}
+	
+	private void notificarObservadores(Boolean resultado) {
+		observadores.stream()
+			.forEach(o -> o.accept(new ResultadoEvento(resultado)));
 	}
 	
 	public boolean ObjetivoAlcancado() {
@@ -83,9 +95,16 @@ public class Tabuleiro implements CampoObservador {
 	@Override
 	public void eventoOcorreu(Campo campo, CampoEvento evento) {
 		if(evento == CampoEvento.EXPLODIR) {
-			System.out.println("Perdeu");
+			mostrarMinas();
+			notificarObservadores(false);
 		}else {
-			System.out.println("Ganhou");
+			notificarObservadores(true);
 		}
+	}
+
+	private void mostrarMinas() {
+		campos.stream()
+			.filter(c -> c.isMinado())
+			.forEach(c -> c.setAberto(true));
 	}
 }	
