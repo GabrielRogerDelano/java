@@ -101,7 +101,8 @@ public class Tabuleiro implements CampoObservador {
 		if(evento == CampoEvento.EXPLODIR) {
 			mostrarMinas();
 			notificarObservadores(false);
-		}else {
+		
+		}else if(ObjetivoAlcancado()){
 			notificarObservadores(true);
 		}
 	}
@@ -109,6 +110,7 @@ public class Tabuleiro implements CampoObservador {
 	private void mostrarMinas() {
 		campos.stream()
 			.filter(c -> c.isMinado())
+			.filter(c -> !c.isMarcado())
 			.forEach(c -> c.setAberto(true));
 	}
 
