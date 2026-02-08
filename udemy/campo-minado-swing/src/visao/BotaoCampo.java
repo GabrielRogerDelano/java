@@ -11,6 +11,7 @@ import modelo.Campo;
 import modelo.CampoEvento;
 import modelo.CampoObservador;
 
+@SuppressWarnings("serial")
 public class BotaoCampo extends JButton implements CampoObservador, MouseListener{
 
 	private final Color BG_PADRAO = new Color(184,184,184);
@@ -21,6 +22,7 @@ public class BotaoCampo extends JButton implements CampoObservador, MouseListene
 	private Campo campo;
 	
 	public BotaoCampo(Campo campo) {
+		setFocusPainted(false);
 		this.campo = campo;
 		setBorder(BorderFactory.createBevelBorder(0));
 		setBackground(BG_PADRAO );
